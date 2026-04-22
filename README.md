@@ -1,35 +1,49 @@
-# Batch HTML to PDF Converter
+﻿# ChromiPrint - Perfect HTML to PDF Converter 📄✨
 
-A high-fidelity batch HTML to PDF conversion tool with a modern GUI.
+[English](#english) | [繁體中文](#繁體中文)
 
-## Features
-- **Modern UI**: Built with `ttkbootstrap` for a premium dark mode look.
-- **Drag & Drop**: Easily add files by dragging them into the application.
-- **High Fidelity**: Uses Playwright (Chromium) to ensure CSS and JavaScript are rendered perfectly.
-- **Batch Processing**: Convert multiple files at once.
-- **Auto-organization**: Converted PDFs are saved in a `Converted` folder next to the source files.
+---
 
-## Installation
+## English
 
-1. Clone the repository.
-2. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Install the Playwright browser engine:
-   ```bash
-   playwright install chromium
-   ```
+**ChromiPrint** is a lightweight yet powerful desktop application, purpose-built to solve the toughest web-to-document conversion challenges.
 
-## Usage
+*   🎯 **Pixel-Perfect Rendering**: Flawless support for complex CSS and dynamic webpages.
+*   🖱️ **Batch Drag-and-Drop**: Say goodbye to the pain of converting files one by one.
+*   🔒 **Local & Private**: No uploads, no limits, and no hidden fees.
 
-Run the application using:
+### 🚀 Quick Start
+
+**1. Install dependencies:**
+```bash
+pip install -r requirements.txt
+playwright install chromium
+```
+
+**2. Run the app:**
 ```bash
 python main_gui.py
 ```
 
-## Requirements
-- Python 3.8+
-- Playwright
-- ttkbootstrap
-- tkinterdnd2
+---
+
+## 繁體中文
+
+**ChromiPrint** 是一個輕量但功能強大的桌面應用程式，專為解決高難度的網頁轉檔而生。
+
+*   🎯 **所見即所得**：完美支援複雜 CSS 與動態網頁。
+*   🖱️ **批量拖曳**：告別一張一張轉檔的痛苦。
+*   🔒 **本地與私密**：無上傳、無限制、無隱藏收費。
+
+### 🚀 快速開始
+
+**1. 安裝環境依賴:**
+```bash
+pip install -r requirements.txt
+playwright install chromium
+```
+
+**2. 執行應用程式:**
+```bash
+python main_gui.py
+```

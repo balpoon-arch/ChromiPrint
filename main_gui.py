@@ -1,4 +1,4 @@
-import tkinter as tk
+﻿import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import ttkbootstrap as tb
 from tkinterdnd2 import DND_FILES, TkinterDnD
@@ -14,7 +14,7 @@ class GUI(TkinterDnD.Tk):
         
         # Setup ttkbootstrap theme
         self.style = tb.Style(theme="darkly")
-        self.title("Batch HTML to PDF Converter v1.0")
+        self.title("ChromiPrint - Perfect HTML to PDF Converter v1.0")
         self.geometry("600x500")
         self.minsize(500, 400)
         
