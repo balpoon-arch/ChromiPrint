@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test File</title>
+<style>
+  body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 40px; }
+  h1 { color: #333; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+</style>
+</head>
+<body>
+  <h1>Test PDF Batch Conversion</h1>
+  <div class="grid">
+    <div class="box">
+      <h2>Section 1</h2>
+      <p>This is a test block rendered using CSS grid and shadow.</p>
+    </div>
+    <div class="box">
+      <h2>Section 2</h2>
+      <p>Playwright should render this perfectly into A4 size.</p>
+    </div>
+  </div>
+  <script>
+    document.body.innerHTML += "<p><em>Dynamically added via JavaScript.</em></p>";
+  </script>
+</body>
+</html>
